@@ -1,0 +1,112 @@
+.nav-bar {
+  grid-template-columns: auto auto auto;
+  min-height: 6.25rem;
+  align-items: center;  /* Align items in the center */
+}
+
+.nav-bar-logo {
+  grid-column: 1;
+  justify-self: start;
+  align-self: center;
+  line-height: 0;
+}
+
+.nav-bar-logo img {
+  max-width: 15.625rem;
+}
+
+.nav-bar-hamburger {
+  grid-column: 2;
+  display: none;
+  cursor: pointer;
+  color: #495E57;
+  transition: background-color 0.5s, transform 0.3s;
+}
+
+.nav-bar-hamburger:hover {
+  background-color: #F4CE14;
+  transform: scale(1.1);  /* Added scaling effect */
+}
+
+.nav-bar-links {
+  grid-column: 3;
+  display: flex;
+  justify-content: right;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
+  transition: left 0.3s ease;
+}
+
+.nav-bar-links.expanded {
+  left: 0;
+}
+
+.nav-bar-links li {
+  display: flex;
+}
+
+.nav-bar-links a {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;  /* Simplified padding shorthand */
+  text-transform: uppercase;
+  transition: background-color 0.5s, color 0.3s;
+}
+
+.current-location, 
+.nav-bar-links a:hover, 
+.nav-bar-links a:focus {
+  background-color: #F4CE14;
+  color: #495E57;  /* Added hover color change */
+}
+
+/*-- Mobile-specific styles --*/
+@media only screen and (max-width: 992px) {
+  .nav-bar {
+    grid-template-columns: auto auto;
+  }
+
+  .nav-bar-hamburger {
+    width: 2.5rem;
+    justify-self: end;
+    display: inline-block;
+    background: none;
+    border: none;
+  }
+
+  .nav-bar-links {
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: -50%;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: left 0.3s ease, background-color 0.3s ease;
+  }
+
+  .nav-bar-links li {
+    flex-direction: column;
+  }
+
+  /* Overlay effect for mobile menu */
+  .nav-bar-links.expanded {
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent background */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .nav-bar-links {
+    width: 100%;  /* Full-width for very small screens */
+    left: -100%;
+  }
+
+  .nav-bar-links.expanded {
+    left: 0;
+  }
+}
