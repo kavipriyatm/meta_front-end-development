@@ -127,7 +127,7 @@ Once the project is running, you can:
 
 ### Reservation Form
 
-![Reservation Form Screenshot](path-to-your-screenshot/form.jpg)
+![Reservation Form Screenshot](Screenshots/Reservation page.jpg)
 
 ---
 
