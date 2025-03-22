@@ -123,11 +123,11 @@ Once the project is running, you can:
 
 ### Homepage
 
-![Homepage Screenshot](Screenshots/Home page.jpg)
+(Screenshots/Home page.jpg)
 
 ### Reservation Form
 
-![Reservation Form Screenshot](Screenshots/Reservation page.jpg)
+(Screenshots/Reservation page.jpg)
 
 ---
 
