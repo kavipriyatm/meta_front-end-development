@@ -1,166 +1,150 @@
-# Little Lemon App - Capstone Project  
-_Meta Front-End Developer Professional Certificate_
+# Little Lemon Restaurant - Capstone Project
+
+This is the **Capstone Project** for the **Meta Front-End Developer Professional Certificate**.  
+The **Little Lemon** application is a responsive, single-page application (SPA) built using **React**, showcasing modern front-end development practices such as component-based architecture, routing, form handling, and responsive design.
 
 ---
 
-## 📋 Project Overview
-
-This is the Capstone Project for the **Meta Front-End Developer Professional Certificate**.  
-The **Little Lemon App** is a fully responsive single-page application (SPA) built with **React**.  
-This project demonstrates modern front-end development practices including component-based architecture, routing, form validation, and responsive design.
-
----
-
-## 🚀 Features
-
-- ✅ Responsive design optimized for desktop, tablet, and mobile devices  
-- ✅ Component-based architecture (React)  
-- ✅ Navigation with React Router  
-- ✅ Form handling and validation with Formik & Yup  
-- ✅ Animations with Framer Motion  
-- ✅ Clean, modular, and reusable code  
-- ✅ Styled Components for scoped styling  
-- ✅ Performance optimization and accessibility best practices
+## 📌 Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🛠️ Technologies Used
+## 📖 Project Overview
 
-- **React**  
+The **Little Lemon Restaurant** web app allows users to explore the restaurant, make table reservations, and experience an intuitive interface optimized for mobile, tablet, and desktop.  
+This project demonstrates proficiency in **React development**, including routing, component design, state management, and form validation.
+
+---
+
+## ✨ Features
+
+- ✅ **Responsive Design** — Optimized for desktop, tablet, and mobile screens.  
+- ✅ **React Router Navigation** — Seamless page transitions without reloading.  
+- ✅ **Form Handling & Validation** — Reservation form with validation using **Formik** and **Yup**.  
+- ✅ **Component-Based Architecture** — Modular and reusable components.  
+- ✅ **Animations** — Smooth animations powered by **Framer Motion**.  
+- ✅ **Styled Components** — Scoped and maintainable styling.  
+- ✅ **Accessibility Best Practices** — Semantic HTML and ARIA where needed.
+
+---
+
+## 🛠 Technologies Used
+
+- **React** (Functional Components, Hooks)  
 - **React Router DOM**  
-- **Formik & Yup**  
-- **Framer Motion**  
+- **Formik** & **Yup** (Form handling & validation)  
+- **Framer Motion** (Animations)  
 - **Styled Components**  
 - **React Bootstrap**  
 - **JavaScript (ES6+)**  
-- **HTML5 & CSS3**
+- **HTML5** & **CSS3**
 
 ---
 
-## 📦 Installation
+## 🚀 Installation
 
-To run the project locally, follow these steps:
+Follow these steps to set up and run the project locally:
 
-1. **Clone the repository**
+### 1. Clone the repository:
+```bash
+git clone https://github.com/kavipriyatm/meta_front-end-development.git
+```
 
-   
-bash
-   git clone https://github.com/kavipriyatm/meta_front-end-development.git
+### 2. Navigate into the project directory:
+```bash
+cd meta-front-end-development
+```
 
+### 3. Install dependencies:
+```bash
+npm install
+```
 
-2. **Navigate to the project directory**
+### 4. Start the development server:
+```bash
+npm start
+```
 
-   
-bash
-   cd meta-front-end-capstone
-
-
-3. **Install dependencies**
-
-   Since this is a plain HTML/CSS/JS project, there are no external dependencies to install. However, if you're running a development server (optional), you can install lite-server:
-
-   
-bash
-   npm install
-
-
-4. **Run the project**
-
-   If you're using lite-server, run:
-
-   
-bash
-   npm start
-
-
-   Or simply open the index.html file in your browser:
-
-   
-bash
-   open public/index.html
-
+The app will be available at `http://localhost:3000`.
 
 ---
 
-## Usage
+## 💡 Usage
 
-Once the project is running, you can:
-
-- Explore the **Home Page** with an engaging landing section.
-- Navigate through different **Pages** like About, Reservations, etc.
-- Fill out interactive **Forms** with validation.
-- Experience a **Responsive UI** that adjusts to different screen sizes.
+- Visit the **Home Page** to explore featured dishes and learn about Little Lemon.
+- Navigate to the **Reservations Page** and fill out the booking form with **validation**.
+- Experience smooth navigation and an intuitive **user interface** across all devices.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-/meta-front-end-capstone
-│
-├── /public               # Public files
-│   ├── index.html        # Main HTML file
-│   └── favicon.ico       # Favicon for the site
-│
-├── /src
-│   ├── /assets           # Images, icons, fonts
-│   ├── /components       # Reusable UI components (e.g., Header, Footer, Forms)
-│   ├── /pages            # Page components (e.g., Home, About, Reservations)
-│   ├── /styles           # CSS files
-│   ├── App.js            # Main app component logic
-│   ├── index.js          # Entry point of the application
-│   └── api.js            # Placeholder for API integration (currently not used)
-│
-├── package.json          # Project metadata and scripts
-└── README.md             # Project documentation
-
+```
+meta-front-end-development/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/           # Images and icons
+│   ├── components/       # Reusable components (Header, Footer, Navbar, etc.)
+│   ├── pages/            # Page components (Home, About, Reservations, etc.)
+│   ├── styles/           # Styled Components or CSS files
+│   ├── App.js            # Root component
+│   ├── index.js          # App entry point
+│   └── api.js            # Mock API or data services
+├── package.json
+└── README.md
+```
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-### Homepage
-https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg
+### 🏠 Home Page  
+![Home Page](https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg)
 
-### Reservation Form
-
-https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Reservation%20page.jpg
-
----
-
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch.
-
-   
-bash
-   git checkout -b feature-branch-name
-
-
-3. Make your changes and commit them.
-
-   
-bash
-   git commit -m 'Add new feature'
-
-
-4. Push to the branch.
-
-   
-bash
-   git push origin feature-branch-name
-
-
-5. Submit a Pull Request.
+### 📝 Reservation Form  
+![Reservation Page](https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Reservation%20page.jpg)
 
 ---
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the **MIT License**
+Contributions are welcome!  
+If you’d like to contribute, please follow these steps:
 
-You are free to modify and distribute this software, provided that you include the original copyright.
+1. **Fork** the repository  
+2. Create your feature branch:  
+   ```bash
+   git checkout -b feature/your-feature
+   ```  
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add your feature"
+   ```  
+4. Push to the branch:  
+   ```bash
+   git push origin feature/your-feature
+   ```  
+5. Submit a **Pull Request**
 
+---
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- [Meta Front-End Developer Professional Certificate] https://www.coursera.org/account/accomplishments/specialization/24CSZM2XL35D
+- Thanks to the creators of React, Formik, Yup, Framer Motion, and Styled Components.
