@@ -85,7 +85,7 @@ Once the project is running, you can explore the following features:
 Include screenshots of your project’s interface here. Example:
 
 ![Homepage Screenshot](assets/homepage-screenshot.png)
-![Form Validation](assets/form-validation-screenshot.png)
+
 
 ## Contributing
 
