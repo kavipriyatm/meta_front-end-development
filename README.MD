@@ -37,8 +37,6 @@ The goal of this project is to demonstrate the ability to design, develop, and d
 - **HTML5**: Structure and content of the application.
 - **CSS3**: Styling and layout using responsive design techniques.
 - **JavaScript (ES6+)**: Functionality, interactivity, and dynamic behavior.
-  
-> **Note**: No frameworks (like React) or libraries (like Bootstrap) were used. Everything was built from scratch.
 
 ---
 
@@ -49,7 +47,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/meta-front-end-capstone.git
+   git clone https://github.com/kavipriyatm/meta_front-end-development.git
    ```
 
 2. **Navigate to the project directory**
@@ -122,12 +120,11 @@ Once the project is running, you can:
 > Add screenshots here to showcase your app UI. Example:
 
 ### Homepage
-
-(Screenshots/Home page.jpg)
+https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg
 
 ### Reservation Form
 
-(Screenshots/Reservation page.jpg)
+https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Reservation%20page.jpg
 
 ---
 
