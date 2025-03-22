@@ -117,8 +117,6 @@ Once the project is running, you can:
 
 ## Screenshots
 
-> Add screenshots here to showcase your app UI. Example:
-
 ### Homepage
 https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg
 
