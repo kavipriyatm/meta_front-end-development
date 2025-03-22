@@ -39,85 +39,127 @@ This project demonstrates modern front-end development practices including compo
 
 ## 📦 Installation
 
-Follow these steps to run the project locally:
+To run the project locally, follow these steps:
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
-   ```bash
+   
+bash
    git clone https://github.com/kavipriyatm/meta_front-end-development.git
-Navigate into the project directory:
 
-bash
-Copy
-Edit
-cd meta-front-end-development
-Install project dependencies:
 
-bash
-Copy
-Edit
-npm install
-Start the development server:
+2. **Navigate to the project directory**
 
+   
 bash
-Copy
-Edit
-npm start
-Open your browser and go to http://localhost:3000 to view the app.
+   cd meta-front-end-capstone
 
-📂 Project Structure
+
+3. **Install dependencies**
+
+   Since this is a plain HTML/CSS/JS project, there are no external dependencies to install. However, if you're running a development server (optional), you can install lite-server:
+
+   
 bash
-Copy
-Edit
-/meta-front-end-development
+   npm install
+
+
+4. **Run the project**
+
+   If you're using lite-server, run:
+
+   
+bash
+   npm start
+
+
+   Or simply open the index.html file in your browser:
+
+   
+bash
+   open public/index.html
+
+
+---
+
+## Usage
+
+Once the project is running, you can:
+
+- Explore the **Home Page** with an engaging landing section.
+- Navigate through different **Pages** like About, Reservations, etc.
+- Fill out interactive **Forms** with validation.
+- Experience a **Responsive UI** that adjusts to different screen sizes.
+
+---
+
+## Project Structure
+
+/meta-front-end-capstone
 │
-├── /public                 # Public files (index.html, favicon, etc.)
+├── /public               # Public files
+│   ├── index.html        # Main HTML file
+│   └── favicon.ico       # Favicon for the site
 │
 ├── /src
-│   ├── /assets             # Images, icons, fonts
-│   ├── /components         # Reusable UI components (Header, Footer, Forms, etc.)
-│   ├── /pages              # Page components (Home, About, Reservations, etc.)
-│   ├── /styles             # CSS/Styled components files
-│   ├── App.js              # Main application component
-│   ├── index.js            # Entry point of the React app
-│   └── api.js              # Placeholder for API integrations
+│   ├── /assets           # Images, icons, fonts
+│   ├── /components       # Reusable UI components (e.g., Header, Footer, Forms)
+│   ├── /pages            # Page components (e.g., Home, About, Reservations)
+│   ├── /styles           # CSS files
+│   ├── App.js            # Main app component logic
+│   ├── index.js          # Entry point of the application
+│   └── api.js            # Placeholder for API integration (currently not used)
 │
-├── package.json            # Project metadata and dependencies
-└── README.md               # Project documentation
-🖼️ Screenshots
-Homepage
+├── package.json          # Project metadata and scripts
+└── README.md             # Project documentation
 
 
-Reservation Form
+---
 
+## Screenshots
 
-🤝 Contributing
-Contributions are welcome! To contribute:
+### Homepage
+https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg
 
-Fork the repository
+### Reservation Form
 
-Create your feature branch:
+https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Reservation%20page.jpg
 
+---
+
+## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+
+   
 bash
-Copy
-Edit
-git checkout -b feature/your-feature
-Commit your changes:
+   git checkout -b feature-branch-name
 
+
+3. Make your changes and commit them.
+
+   
 bash
-Copy
-Edit
-git commit -m "Add your message"
-Push to the branch:
+   git commit -m 'Add new feature'
 
+
+4. Push to the branch.
+
+   
 bash
-Copy
-Edit
-git push origin feature/your-feature
-Open a Pull Request
+   git push origin feature-branch-name
 
-📄 License
-This project is licensed under the MIT License.
+
+5. Submit a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**
 
 You are free to modify and distribute this software, provided that you include the original copyright.
 
