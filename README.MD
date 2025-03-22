@@ -1,161 +1,123 @@
-# Meta Front-End Developer Capstone Project
-
-## Project Overview
-
-This project is the capstone for the Meta Front-End Developer course. It was developed using core front-end technologies—**HTML**, **CSS**, and **JavaScript**—without the use of frameworks like React or libraries like Bootstrap.
-
-The goal of this project is to demonstrate the ability to design, develop, and deploy a functional and responsive front-end web application. The project focuses on building a smooth user experience and practicing modern development standards.
+# Little Lemon App - Capstone Project  
+_Meta Front-End Developer Professional Certificate_
 
 ---
 
-## Table of Contents
+## 📋 Project Overview
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+This is the Capstone Project for the **Meta Front-End Developer Professional Certificate**.  
+The **Little Lemon App** is a fully responsive single-page application (SPA) built with **React**.  
+This project demonstrates modern front-end development practices including component-based architecture, routing, form validation, and responsive design.
 
 ---
 
-## Features
+## 🚀 Features
 
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-- **Interactive User Interface**: Dynamic UI elements that respond to user interactions.
-- **Form Validation**: Validates user inputs to ensure accuracy and security.
-- **Performance Optimization**: Clean code, optimized assets, and minimal dependencies for fast load times.
-- **Modular Codebase**: Structured code organized into reusable components for better readability and maintainability.
-
----
-
-## Technologies Used
-
-- **HTML5**: Structure and content of the application.
-- **CSS3**: Styling and layout using responsive design techniques.
-- **JavaScript (ES6+)**: Functionality, interactivity, and dynamic behavior.
+- ✅ Responsive design optimized for desktop, tablet, and mobile devices  
+- ✅ Component-based architecture (React)  
+- ✅ Navigation with React Router  
+- ✅ Form handling and validation with Formik & Yup  
+- ✅ Animations with Framer Motion  
+- ✅ Clean, modular, and reusable code  
+- ✅ Styled Components for scoped styling  
+- ✅ Performance optimization and accessibility best practices
 
 ---
 
-## Installation
+## 🛠️ Technologies Used
 
-To run the project locally, follow these steps:
+- **React**  
+- **React Router DOM**  
+- **Formik & Yup**  
+- **Framer Motion**  
+- **Styled Components**  
+- **React Bootstrap**  
+- **JavaScript (ES6+)**  
+- **HTML5 & CSS3**
 
-1. **Clone the repository**
+---
+
+## 📦 Installation
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/kavipriyatm/meta_front-end-development.git
-   ```
+Navigate into the project directory:
 
-2. **Navigate to the project directory**
+bash
+Copy
+Edit
+cd meta-front-end-development
+Install project dependencies:
 
-   ```bash
-   cd meta-front-end-capstone
-   ```
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-3. **Install dependencies**
+bash
+Copy
+Edit
+npm start
+Open your browser and go to http://localhost:3000 to view the app.
 
-   Since this is a plain HTML/CSS/JS project, there are no external dependencies to install. However, if you're running a development server (optional), you can install `lite-server`:
-
-   ```bash
-   npm install
-   ```
-
-4. **Run the project**
-
-   If you're using `lite-server`, run:
-
-   ```bash
-   npm start
-   ```
-
-   Or simply open the `index.html` file in your browser:
-
-   ```bash
-   open public/index.html
-   ```
-
----
-
-## Usage
-
-Once the project is running, you can:
-
-- Explore the **Home Page** with an engaging landing section.
-- Navigate through different **Pages** like About, Reservations, etc.
-- Fill out interactive **Forms** with validation.
-- Experience a **Responsive UI** that adjusts to different screen sizes.
-
----
-
-## Project Structure
-
-```
-/meta-front-end-capstone
+📂 Project Structure
+bash
+Copy
+Edit
+/meta-front-end-development
 │
-├── /public               # Public files
-│   ├── index.html        # Main HTML file
-│   └── favicon.ico       # Favicon for the site
+├── /public                 # Public files (index.html, favicon, etc.)
 │
 ├── /src
-│   ├── /assets           # Images, icons, fonts
-│   ├── /components       # Reusable UI components (e.g., Header, Footer, Forms)
-│   ├── /pages            # Page components (e.g., Home, About, Reservations)
-│   ├── /styles           # CSS files
-│   ├── App.js            # Main app component logic
-│   ├── index.js          # Entry point of the application
-│   └── api.js            # Placeholder for API integration (currently not used)
+│   ├── /assets             # Images, icons, fonts
+│   ├── /components         # Reusable UI components (Header, Footer, Forms, etc.)
+│   ├── /pages              # Page components (Home, About, Reservations, etc.)
+│   ├── /styles             # CSS/Styled components files
+│   ├── App.js              # Main application component
+│   ├── index.js            # Entry point of the React app
+│   └── api.js              # Placeholder for API integrations
 │
-├── package.json          # Project metadata and scripts
-└── README.md             # Project documentation
-```
+├── package.json            # Project metadata and dependencies
+└── README.md               # Project documentation
+🖼️ Screenshots
+Homepage
 
----
 
-## Screenshots
+Reservation Form
 
-### Homepage
-https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Home%20page.jpg
 
-### Reservation Form
+🤝 Contributing
+Contributions are welcome! To contribute:
 
-https://github.com/kavipriyatm/meta_front-end-development/blob/main/Screenshots/Reservation%20page.jpg
+Fork the repository
 
----
+Create your feature branch:
 
-## Contributing
+bash
+Copy
+Edit
+git checkout -b feature/your-feature
+Commit your changes:
 
-Contributions are welcome! Follow these steps to contribute:
+bash
+Copy
+Edit
+git commit -m "Add your message"
+Push to the branch:
 
-1. Fork the repository.
-2. Create a new branch.
+bash
+Copy
+Edit
+git push origin feature/your-feature
+Open a Pull Request
 
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-
-3. Make your changes and commit them.
-
-   ```bash
-   git commit -m 'Add new feature'
-   ```
-
-4. Push to the branch.
-
-   ```bash
-   git push origin feature-branch-name
-   ```
-
-5. Submit a Pull Request.
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
+📄 License
+This project is licensed under the MIT License.
 
 You are free to modify and distribute this software, provided that you include the original copyright.
 
