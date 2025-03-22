@@ -123,7 +123,7 @@ Once the project is running, you can:
 
 ### Homepage
 
-![Homepage Screenshot](path-to-your-screenshot/homepage.jpg)
+![Homepage Screenshot](Screenshots/Home page.jpg)
 
 ### Reservation Form
 
